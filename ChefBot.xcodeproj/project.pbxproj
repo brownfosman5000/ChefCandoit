@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C1C511201A64D20079C2F1 /* ChefBotEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1C510201A64D20079C2F1 /* ChefBotEngine.swift */; };
+		57E1A313200EA7A60082250B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1A312200EA7A60082250B /* AppDelegate.swift */; };
+		57E1A315200EA7A60082250B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1A314200EA7A60082250B /* ViewController.swift */; };
+		57E1A318200EA7A60082250B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E1A316200EA7A60082250B /* Main.storyboard */; };
+		57E1A31A200EA7A60082250B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E1A319200EA7A60082250B /* Assets.xcassets */; };
+		57E1A31D200EA7A60082250B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E1A31B200EA7A60082250B /* LaunchScreen.storyboard */; };
+		98FE392FA3249F9B4E61D0A3 /* Pods_ChefBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD9143CA8C0C2461CA00F49 /* Pods_ChefBot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B520FD153A2764387AB5965 /* Pods-ChefBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChefBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChefBot/Pods-ChefBot.release.xcconfig"; sourceTree = "<group>"; };
+		57C1C510201A64D20079C2F1 /* ChefBotEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefBotEngine.swift; sourceTree = "<group>"; };
+		57E1A30F200EA7A60082250B /* ChefBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E1A312200EA7A60082250B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57E1A314200EA7A60082250B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57E1A317200EA7A60082250B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57E1A319200EA7A60082250B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57E1A31C200EA7A60082250B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57E1A31E200EA7A60082250B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD9143CA8C0C2461CA00F49 /* Pods_ChefBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChefBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA2EF8A11F7CB27ACDF3F84 /* Pods-ChefBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChefBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChefBot/Pods-ChefBot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57E1A30C200EA7A60082250B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FE392FA3249F9B4E61D0A3 /* Pods_ChefBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57E1A306200EA7A60082250B = {
+			isa = PBXGroup;
+			children = (
+				57E1A311200EA7A60082250B /* ChefBot */,
+				57E1A310200EA7A60082250B /* Products */,
+				B57C503832FF7675B973ECCA /* Pods */,
+				DEE20238C12990EDB00E8164 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57E1A310200EA7A60082250B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E1A30F200EA7A60082250B /* ChefBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57E1A311200EA7A60082250B /* ChefBot */ = {
+			isa = PBXGroup;
+			children = (
+				57E1A326200ECFCC0082250B /* Controller */,
+				57E1A325200ECFC50082250B /* View */,
+				57E1A324200ECFBB0082250B /* Model */,
+				57E1A31E200EA7A60082250B /* Info.plist */,
+			);
+			path = ChefBot;
+			sourceTree = "<group>";
+		};
+		57E1A324200ECFBB0082250B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57C1C510201A64D20079C2F1 /* ChefBotEngine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57E1A325200ECFC50082250B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57E1A316200EA7A60082250B /* Main.storyboard */,
+				57E1A31B200EA7A60082250B /* LaunchScreen.storyboard */,
+				57E1A319200EA7A60082250B /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57E1A326200ECFCC0082250B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57E1A314200EA7A60082250B /* ViewController.swift */,
+				57E1A312200EA7A60082250B /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B57C503832FF7675B973ECCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EA2EF8A11F7CB27ACDF3F84 /* Pods-ChefBot.debug.xcconfig */,
+				0B520FD153A2764387AB5965 /* Pods-ChefBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEE20238C12990EDB00E8164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD9143CA8C0C2461CA00F49 /* Pods_ChefBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57E1A30E200EA7A60082250B /* ChefBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E1A321200EA7A60082250B /* Build configuration list for PBXNativeTarget "ChefBot" */;
+			buildPhases = (
+				692CF8D8A9F8E6E0A3C47AAA /* [CP] Check Pods Manifest.lock */,
+				57E1A30B200EA7A60082250B /* Sources */,
+				57E1A30C200EA7A60082250B /* Frameworks */,
+				57E1A30D200EA7A60082250B /* Resources */,
+				C7EBDD69D3E19441C63A9311 /* [CP] Embed Pods Frameworks */,
+				0CBC2FE1DB5BC86F05E20FC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChefBot;
+			productName = ChefBot;
+			productReference = 57E1A30F200EA7A60082250B /* ChefBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57E1A307200EA7A60082250B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Foster Brown";
+				TargetAttributes = {
+					57E1A30E200EA7A60082250B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57E1A30A200EA7A60082250B /* Build configuration list for PBXProject "ChefBot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57E1A306200EA7A60082250B;
+			productRefGroup = 57E1A310200EA7A60082250B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57E1A30E200EA7A60082250B /* ChefBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57E1A30D200EA7A60082250B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E1A31D200EA7A60082250B /* LaunchScreen.storyboard in Resources */,
+				57E1A31A200EA7A60082250B /* Assets.xcassets in Resources */,
+				57E1A318200EA7A60082250B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CBC2FE1DB5BC86F05E20FC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChefBot/Pods-ChefBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692CF8D8A9F8E6E0A3C47AAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChefBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7EBDD69D3E19441C63A9311 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChefBot/Pods-ChefBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ApiAI/ApiAI.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApiAI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChefBot/Pods-ChefBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57E1A30B200EA7A60082250B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E1A315200EA7A60082250B /* ViewController.swift in Sources */,
+				57E1A313200EA7A60082250B /* AppDelegate.swift in Sources */,
+				57C1C511201A64D20079C2F1 /* ChefBotEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57E1A316200EA7A60082250B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57E1A317200EA7A60082250B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57E1A31B200EA7A60082250B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57E1A31C200EA7A60082250B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57E1A31F200EA7A60082250B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57E1A320200EA7A60082250B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57E1A322200EA7A60082250B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA2EF8A11F7CB27ACDF3F84 /* Pods-ChefBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 723USM24FF;
+				INFOPLIST_FILE = ChefBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fosterbrown.ChefBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57E1A323200EA7A60082250B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B520FD153A2764387AB5965 /* Pods-ChefBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 723USM24FF;
+				INFOPLIST_FILE = ChefBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fosterbrown.ChefBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57E1A30A200EA7A60082250B /* Build configuration list for PBXProject "ChefBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E1A31F200EA7A60082250B /* Debug */,
+				57E1A320200EA7A60082250B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E1A321200EA7A60082250B /* Build configuration list for PBXNativeTarget "ChefBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E1A322200EA7A60082250B /* Debug */,
+				57E1A323200EA7A60082250B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57E1A307200EA7A60082250B /* Project object */;
+}

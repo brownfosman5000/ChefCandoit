@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChefBot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sp2-fl-ydi" userLabel="Top Container">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Chef Candoit " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8I-I8-GI9">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="48"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Hey fella! I am Chef Candoit. Give me any dish or food name and I'll give you the ingredients to it!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Z4-0h-n0I">
+                                        <rect key="frame" x="20" y="104" width="335" height="182"/>
+                                        <color key="backgroundColor" red="0.36861427079999998" green="0.67843656090000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5Z4-0h-n0I" firstAttribute="leading" secondItem="Sp2-fl-ydi" secondAttribute="leading" constant="20" id="3aO-k3-7D8"/>
+                                    <constraint firstAttribute="trailing" secondItem="G8I-I8-GI9" secondAttribute="trailing" id="5x3-Za-b5j"/>
+                                    <constraint firstItem="5Z4-0h-n0I" firstAttribute="top" secondItem="G8I-I8-GI9" secondAttribute="bottom" constant="29" id="Cwp-Eu-9mJ"/>
+                                    <constraint firstItem="G8I-I8-GI9" firstAttribute="leading" secondItem="Sp2-fl-ydi" secondAttribute="leading" id="KS9-Ia-ACD"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Z4-0h-n0I" secondAttribute="trailing" constant="20" id="Us1-8x-W7V"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Z4-0h-n0I" secondAttribute="bottom" constant="46.5" id="ipN-wo-NRp"/>
+                                    <constraint firstItem="G8I-I8-GI9" firstAttribute="top" secondItem="Sp2-fl-ydi" secondAttribute="top" constant="28" id="wrq-eM-huc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o8f-Dr-dE7" userLabel="Bottom Container">
+                                <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="175" translatesAutoresizingMaskIntoConstraints="NO" id="HaN-fS-pCQ">
+                                        <rect key="frame" x="62" y="40" width="250" height="254"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="250" placeholderIntrinsicHeight="39" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Food Here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vtI-cs-335">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="39"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3p-yU-W7f">
+                                                <rect key="frame" x="0.0" y="214" width="250" height="40"/>
+                                                <color key="backgroundColor" red="0.36861427079999998" green="0.67843656090000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                <state key="normal" title="Ask Chef Candoit ">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ask:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcV-23-m0o"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="HaN-fS-pCQ" firstAttribute="centerX" secondItem="o8f-Dr-dE7" secondAttribute="centerX" id="5cW-qf-hml"/>
+                                    <constraint firstItem="HaN-fS-pCQ" firstAttribute="centerY" secondItem="o8f-Dr-dE7" secondAttribute="centerY" id="duQ-Ou-bUw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="o8f-Dr-dE7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1K5-GI-EiQ"/>
+                            <constraint firstItem="o8f-Dr-dE7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DRy-Wu-nla"/>
+                            <constraint firstItem="Sp2-fl-ydi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SuO-gu-MVb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sp2-fl-ydi" secondAttribute="trailing" id="YzY-xV-OJw"/>
+                            <constraint firstItem="o8f-Dr-dE7" firstAttribute="top" secondItem="Sp2-fl-ydi" secondAttribute="bottom" id="gHT-ek-L3I"/>
+                            <constraint firstItem="o8f-Dr-dE7" firstAttribute="top" secondItem="Sp2-fl-ydi" secondAttribute="bottom" id="izC-bq-tKm"/>
+                            <constraint firstItem="o8f-Dr-dE7" firstAttribute="height" secondItem="Sp2-fl-ydi" secondAttribute="height" id="jM9-8c-6DW"/>
+                            <constraint firstItem="o8f-Dr-dE7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jwH-Cx-Pik"/>
+                            <constraint firstItem="Sp2-fl-ydi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="s9t-AM-LQL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="botResponse" destination="5Z4-0h-n0I" id="ri6-Oe-0Hl"/>
+                        <outlet property="messageField" destination="vtI-cs-335" id="mex-Jx-GyJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="141.67916041979012"/>
+        </scene>
+    </scenes>
+</document>

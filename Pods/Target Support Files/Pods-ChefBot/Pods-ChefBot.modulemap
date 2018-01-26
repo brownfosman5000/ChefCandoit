@@ -1,0 +1,6 @@
+framework module Pods_ChefBot {
+  umbrella header "Pods-ChefBot-umbrella.h"
+
+  export *
+  module * { export * }
+}
