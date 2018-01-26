@@ -1,4 +1,4 @@
-Welcome to Chef Candoit!!
+#Welcome to Chef Candoit!!
 
 First you insert a food or dish you would like to make
 
